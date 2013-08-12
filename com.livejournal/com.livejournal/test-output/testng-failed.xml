@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.livejournalmain.testcategories.logintests.PostingPageActualTest">
+        <methods>
+          <include name="myInit"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.livejournalmain.testcategories.logintests.PostingPageActualTest -->
+      <class name="com.livejournalmain.testcategories.logintests.HomePageActualTest">
+        <methods>
+          <include name="profileSettings"/>
+        </methods>
+      </class> <!-- com.livejournalmain.testcategories.logintests.HomePageActualTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
